@@ -7,21 +7,12 @@ Team Mount Evan’s objective for the project was to analyze large sets of Twitt
 ## Description
 
 Step 1: Distributing Raw Data
-* Download datasets from Kaggle.com and upload to team Github for initial analysis
-* Subset dataset for preliminary analysis. The team subset March 12, 2020 Twitter data to ~6000 rows
-* Ingest subset dataset to members' individual machines for analysis. Upload working code into Github repository throughout project
-* Ingest subset dataset to S3 bucket for analysis with AWS EMR for continued analysis
 
 Step 2: AWS EMR
-* Create independent cluster on AWS EMR for local analysis
-* Use JupyterLab Notebooks and S3 storage to store data and develop code within EMR
-* Update team's shared GitHub repository with developing Python and Pyspark code; finalize code
 
 Step 3: Final Deployment
-* Load data to Leeds S3 bucket
-* Scale up final analysis code to handle larger Twitter datasets
-* Run final analysis in Leeds EMR cluster where multiple iterations can be processed
-* Introduce new data as needed
+
+* More detailed information can be found in [this document.](https://github.com/MSBX5420/team_mount_evans/blob/master/Design%20Document.txt)
 
 ## Getting Started
 
