@@ -4,6 +4,7 @@
 
 Team Mount Evan’s objective for the project was to analyze large sets of Twitter data produced in the midst of the COVID-19 pandemic. The data analyzed stretched from the beginning of March 2020 to the beginning of April 2020. While the data came from all across the world, the team decided to analyze tweets that are in English only. The data was sourced from Kaggle.com. The team used GitHub as a centralized repository for shared data files and working code. The team also used AWS EMR for storage, code construction, and as a local cluster to test iterations of code. The methodology is described below:
 
+
 ## Description
 
 Step 1: Distributing Raw Data
@@ -13,6 +14,11 @@ Step 2: AWS EMR
 Step 3: Final Deployment
 
 * More detailed information can be found in the [Design Document.](https://github.com/MSBX5420/team_mount_evans/blob/master/Design%20Document.txt) This will include a code diagram of operations to run the applicable final code. 
+
+
+### Other Documents
+
+
 
 ## Getting Started
 
@@ -59,9 +65,13 @@ The following code links are segments developed locally prior to the final deloy
 
 
 Testing Code
-* Sentiment analysis using TextBlob of Tweets in English
-** [spark_data_ingest.py](https://github.com/MSBX5420/team_mount_evans/blob/master/spark_data_ingest.py)
-* 
+* Sentiment analysis using TextBlob of Tweets in English [spark_data_ingest.py](https://github.com/MSBX5420/team_mount_evans/blob/master/spark_data_ingest.py)
+* Added New Cleaning Code [Data Ingest and Cleaning.py](https://github.com/MSBX5420/team_mount_evans/blob/master/Data%20Ingest%20and%20Cleaning.py)
+* Create Wordcloud Code [Wordcloud Code](https://github.com/MSBX5420/team_mount_evans/blob/master/Wordcloud%20Code)
+* Further Data Ingesting Code [IngestingData_analysis.ipynb](https://github.com/MSBX5420/team_mount_evans/blob/master/IngestingData_analysis.ipynb)
+* Added addition code to produce WordCloud [IngestingData.py](https://github.com/MSBX5420/team_mount_evans/blob/master/IngestingData.py)
+* Updated Data Analysis Code [Ingestdata_analysis2.py](https://github.com/MSBX5420/team_mount_evans/blob/master/Ingestdata_analysis2.py)
+
 
 ## Help
 
