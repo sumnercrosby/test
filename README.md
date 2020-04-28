@@ -18,16 +18,16 @@ Step 3: Final Deployment
 
 ### Dependencies
 
-#### Utilized Python as the base language, including the following packages:
-TextBlob for sentiment analysis
-Spark wrapper
-Pyspark.Sql
-Statsmodel.api
-Matplotlib & Pyplot
-Pandas
-WordCloud
+Utilized Python as the base language, including the following packages:
+* TextBlob for sentiment analysis
+* Spark wrapper
+* Pyspark.Sql
+* Statsmodel.api
+* Matplotlib & Pyplot
+* Pandas
+* WordCloud
 
-#### Github repository used for version control & code management
+Github repository used for version control & code management
 
 
 ### Installing
