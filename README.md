@@ -14,10 +14,6 @@ Step 3: Final Deployment
 
 * More information can be found in the [Design Document.](https://github.com/MSBX5420/team_mount_evans/blob/master/Design%20Document.txt) This will include a more detailed outline of the steps to load, ingest, deploy, and analyze the data as well as a code diagram of operations.
 
-### Other Documents
-
-TO BE ADDED
-
 ## Getting Started
 
 ### Dependencies
@@ -66,6 +62,10 @@ The following code links are segments developed locally prior to the final deloy
 * Further Data Ingesting Code [IngestingData_analysis.ipynb](https://github.com/MSBX5420/team_mount_evans/blob/master/IngestingData_analysis.ipynb)
 * Added addition code to produce WordCloud [IngestingData.py](https://github.com/MSBX5420/team_mount_evans/blob/master/IngestingData.py)
 * Updated Data Analysis Code [Ingestdata_analysis2.py](https://github.com/MSBX5420/team_mount_evans/blob/master/Ingestdata_analysis2.py)
+
+### Other Documents
+
+TO BE ADDED
 
 ## Help
 
