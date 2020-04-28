@@ -1,5 +1,5 @@
 # MSBX 5420-003: Unstructured and Distributed Data Modeling and Analysis
-# COVID-19 Twitter Data Ingest and Analysis
+## COVID-19 Twitter Data Ingest and Analysis
 ## Team Mount Evans
 
 Team Mount Evan’s objective for the project was to analyze large sets of Twitter data produced in the midst of the COVID-19 pandemic. The data analyzed stretched from the beginning of March 2020 to the beginning of April 2020. While the data came from all across the world, the team decided to analyze tweets that are in English only. The data was sourced from Kaggle.com. The team used GitHub as a centralized repository for shared data files and working code. The team also used AWS EMR for storage, code construction, and as a local cluster to test iterations of code. The methodology is described below:
@@ -12,7 +12,7 @@ Step 2: AWS EMR
 
 Step 3: Final Deployment
 
-* More detailed information can be found in [this document.](https://github.com/MSBX5420/team_mount_evans/blob/master/Design%20Document.txt)
+* More detailed information can be found in [the Design Document.](https://github.com/MSBX5420/team_mount_evans/blob/master/Design%20Document.txt) This will include a code diagram of operations to run the applicable final code. 
 
 ## Getting Started
 
@@ -30,36 +30,31 @@ Utilized Python as the base language, including the following packages:
 Github repository used for version control & code management
 
 
-### Installing
+### Packages
+* matplotlib 
+* pyspark.sql
+* seaborn
+* io 
+* datetime
+* sys
+* pickle 
+* statsmodels
+* pandas
+* numpy
+* wordcloud
+* textblob
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
+## Code Links
 
-### Executing program
 
-* How to run the program
-* Step-by-step bullets
-```
-code blocks for commands
-```
-
-## Help
-
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
 
 ## Authors
 
-Sumner Crosby
+Stephen Lipsky
+Olivia Ponrick
+Nay Vichitpunt
 Caleb Gordon
+Sumner Crosby
 
-## Version History
 
-* 0.2
-    * Various bug fixes and optimizations
-    * See [commit change]() or See [release history]()
-* 0.1
-    * Initial Release
 
