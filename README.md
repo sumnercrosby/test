@@ -12,7 +12,7 @@ Step 2: AWS EMR
 
 Step 3: Final Deployment
 
-* More detailed information can be found in [the Design Document.](https://github.com/MSBX5420/team_mount_evans/blob/master/Design%20Document.txt) This will include a code diagram of operations to run the applicable final code. 
+* More detailed information can be found in the [Design Document.](https://github.com/MSBX5420/team_mount_evans/blob/master/Design%20Document.txt) This will include a code diagram of operations to run the applicable final code. 
 
 ## Getting Started
 
@@ -46,6 +46,18 @@ Github repository used for version control & code management
 
 ## Code Links
 
+Final Code Used for EMR Deployment
+* [Final Code.py](https://github.com/MSBX5420/team_mount_evans/blob/master/Final%20Code.py)
+* [Final Code.ipynb](https://github.com/MSBX5420/team_mount_evans/blob/master/Final%20Code.ipynb)
+
+The following code links are segments developed locally prior to the final deloyment of the entire dataset. The code below was tested on a small subset of the data and applied to the master file upon deployment.
+
+Testing Code
+* 
+
+## Help
+
+Any questions may be directed to the below contributors to this project.
 
 
 ## Authors
