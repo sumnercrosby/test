@@ -4,7 +4,7 @@
 
 Team Mount Evan’s objective for the project was to analyze large sets of Twitter data produced in the midst of the COVID-19 pandemic. The data analyzed stretched from the beginning of March 2020 to the beginning of April 2020. While the data came from all across the world, the team decided to analyze tweets that are in English only. The data was sourced from Kaggle.com. The team used GitHub as a centralized repository for shared data files and working code. The team also used AWS EMR for storage, code construction, and as a local cluster to test iterations of code. The methodology is described below:
 
-## Description
+## Data Distribution Outline
 
 Step 1: Distributing Raw Data
 
@@ -12,7 +12,7 @@ Step 2: AWS EMR
 
 Step 3: Final Deployment
 
-* More detailed information can be found in the [Design Document.](https://github.com/MSBX5420/team_mount_evans/blob/master/Design%20Document.txt) This will include a code diagram of operations to run the applicable final code. 
+* More information can be found in the [Design Document.](https://github.com/MSBX5420/team_mount_evans/blob/master/Design%20Document.txt) This will include a more detailed outline of the steps to load, ingest, deploy, and analyze the data as well as a code diagram of operations.
 
 ### Other Documents
 
@@ -58,7 +58,7 @@ Sample Data
 
 Testing Code
 
-The following code links are segments developed locally prior to the final deloyment of the entire dataset. The code below was tested on a small subset of the data and applied to the master file upon deployment.
+The following code links are segments developed locally prior to the final deloyment of the entire dataset. The below code  was tested on a small subset of the data and applied to the master file upon deployment.
 
 * Sentiment analysis using TextBlob of Tweets in English [spark_data_ingest.py](https://github.com/MSBX5420/team_mount_evans/blob/master/spark_data_ingest.py)
 * Added New Cleaning Code [Data Ingest and Cleaning.py](https://github.com/MSBX5420/team_mount_evans/blob/master/Data%20Ingest%20and%20Cleaning.py)
@@ -69,7 +69,7 @@ The following code links are segments developed locally prior to the final deloy
 
 ## Help
 
-Any questions may be directed to the below contributors to this project.
+Any questions may be directed to the [Design Document](https://github.com/MSBX5420/team_mount_evans/blob/master/Design%20Document.txt) or the below contributors to this project.
 
 ## Authors
 
